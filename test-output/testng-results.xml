@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="79" started-at="2018-08-25T13:01:29Z" finished-at="2018-08-25T13:01:29Z">
+    <groups>
+    </groups>
+    <test name="exampletest1" duration-ms="79" started-at="2018-08-25T13:01:29Z" finished-at="2018-08-25T13:01:29Z">
+      <class name="TestngPack.FirstTest">
+        <test-method status="PASS" signature="testSalutationMessage()[pri:0, instance:TestngPack.FirstTest@42bbf4]" name="testSalutationMessage" duration-ms="17" started-at="2018-08-25T21:01:29Z" finished-at="2018-08-25T21:01:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSalutationMessage -->
+        <test-method status="PASS" signature="testPrintMessage()[pri:0, instance:TestngPack.FirstTest@42bbf4]" name="testPrintMessage" duration-ms="0" started-at="2018-08-25T21:01:29Z" depends-on-methods="TestngPack.FirstTest.testSalutationMessage" finished-at="2018-08-25T21:01:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrintMessage -->
+        <test-method status="PASS" signature="firstest(java.lang.String)[pri:0, instance:TestngPack.FirstTest@42bbf4]" name="firstest" duration-ms="0" started-at="2018-08-25T21:01:29Z" depends-on-methods="TestngPack.FirstTest.testPrintMessage" finished-at="2018-08-25T21:01:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeep]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstest -->
+      </class> <!-- TestngPack.FirstTest -->
+    </test> <!-- exampletest1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

@@ -1,12 +1,12 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name = "Suite1">
+<suite name = "Parallelsuite" parallel="methods" thread-count="2" >
 
-   <test name = "exampletest1">
-   <parameter name = "myName" value="sandeep"/> 
+   <test name = "Paralleltest">
+   
       <classes>
-         <class name = "TestngPack.FirstTest" />
+         <class name = "TestngPack.ParallelExecution" />
       </classes>
    </test>
   

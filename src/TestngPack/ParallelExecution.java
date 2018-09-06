@@ -38,5 +38,10 @@ public class ParallelExecution {
 	      System.out.println("Inside fourthtest()");
 	      
 	   }
+	   @Test
+	   public void fifthtest() {
+	      System.out.println("Inside fourthtest()");
+	      
+	   }
 	}
 

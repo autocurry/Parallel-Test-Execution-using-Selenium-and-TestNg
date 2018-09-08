@@ -15,7 +15,8 @@ public class ParallelExecution {
 	
 		   
 	   //testing jenkins trigger
-	//testing the github connection testing
+	//testing the github connection testings
+	//addded another line to check git 
 	   @Test
 	   public void firstest() {
 	      System.out.println("Inside firsttest()");

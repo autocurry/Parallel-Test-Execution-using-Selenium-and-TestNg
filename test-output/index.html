@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Parallelsuite">
-                    <span>E:\SELENIUM\workspace\AutomationPractice\testng.xml</span>
+                    <span>C:\Users\hp\git\paralleltests\Parallel-Test-Execution-using-Selenium-and-TestNg\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -99,6 +99,11 @@
                       <a href="#" panel-name="suite-Parallelsuite" class="show-methods passed suite-Parallelsuite"> (show)</a> <!-- show-methods passed suite-Parallelsuite -->
                     </span>
                     <div class="method-list-content passed suite-Parallelsuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallelsuite" title="TestngPack.ParallelExecution" hash-for-method="fifthtest">fifthtest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Parallelsuite" title="TestngPack.ParallelExecution" hash-for-method="firstest">firstest</a> <!-- method navigator-link -->
@@ -139,6 +144,13 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="fifthtest">
+                  </a> <!-- fifthtest -->
+                  <span class="method-name">fifthtest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="firstest">
                   </a> <!-- firstest -->
                   <span class="method-name">firstest</span>
@@ -170,7 +182,7 @@
         </div> <!-- panel Parallelsuite -->
         <div panel-name="test-xml-Parallelsuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">E:\SELENIUM\workspace\AutomationPractice\testng.xml</span>
+            <span class="header-content">C:\Users\hp\git\paralleltests\Parallel-Test-Execution-using-Selenium-and-TestNg\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -219,28 +231,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'firstest')
 data.setCell(0, 2, 'TestngPack.ParallelExecution')
-data.setCell(0, 3, 16);
+data.setCell(0, 3, 31);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'fouthtest')
+data.setCell(1, 1, 'thirdtest')
 data.setCell(1, 2, 'TestngPack.ParallelExecution')
-data.setCell(1, 3, 16);
+data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'thirdtest')
+data.setCell(2, 1, 'fouthtest')
 data.setCell(2, 2, 'TestngPack.ParallelExecution')
 data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'secondtest')
 data.setCell(3, 2, 'TestngPack.ParallelExecution')
 data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'fifthtest')
+data.setCell(4, 2, 'TestngPack.ParallelExecution')
+data.setCell(4, 3, 0);
 window.suiteTableData['Parallelsuite']= { tableData: data, tableDiv: 'times-div-Parallelsuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 ms</span>
+              <span class="suite-total-time">Total running time: 31 ms</span>
               <div id="times-div-Parallelsuite">
               </div> <!-- times-div-Parallelsuite -->
             </div> <!-- times-div -->
@@ -272,16 +288,20 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <span class="method-name">fifthtest</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">fouthtest</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">47 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">secondtest</span>
-                <span class="method-start">31 ms</span>
+                <span class="method-start">62 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">thirdtest</span>
-                <span class="method-start">31 ms</span>
+                <span class="method-start">62 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

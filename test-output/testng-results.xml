@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Parallelsuite" duration-ms="93" started-at="2018-08-28T14:58:58Z" finished-at="2018-08-28T14:58:58Z">
+  <suite name="Parallelsuite" duration-ms="126" started-at="2018-09-13T13:52:28Z" finished-at="2018-09-13T13:52:28Z">
     <groups>
     </groups>
-    <test name="Paralleltest" duration-ms="93" started-at="2018-08-28T14:58:58Z" finished-at="2018-08-28T14:58:58Z">
+    <test name="Paralleltest" duration-ms="126" started-at="2018-09-13T13:52:28Z" finished-at="2018-09-13T13:52:28Z">
       <class name="TestngPack.ParallelExecution">
-        <test-method status="PASS" signature="firstest()[pri:0, instance:TestngPack.ParallelExecution@273305]" name="firstest" duration-ms="16" started-at="2018-08-28T22:58:58Z" finished-at="2018-08-28T22:58:58Z">
+        <test-method status="PASS" signature="firstest()[pri:0, instance:TestngPack.ParallelExecution@273305]" name="firstest" duration-ms="31" started-at="2018-09-13T21:52:28Z" finished-at="2018-09-13T21:52:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstest -->
-        <test-method status="PASS" signature="fouthtest()[pri:0, instance:TestngPack.ParallelExecution@273305]" name="fouthtest" duration-ms="16" started-at="2018-08-28T22:58:58Z" finished-at="2018-08-28T22:58:58Z">
+        <test-method status="PASS" signature="fifthtest()[pri:0, instance:TestngPack.ParallelExecution@273305]" name="fifthtest" duration-ms="0" started-at="2018-09-13T21:52:28Z" finished-at="2018-09-13T21:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthtest -->
+        <test-method status="PASS" signature="fouthtest()[pri:0, instance:TestngPack.ParallelExecution@273305]" name="fouthtest" duration-ms="0" started-at="2018-09-13T21:52:28Z" finished-at="2018-09-13T21:52:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fouthtest -->
-        <test-method status="PASS" signature="thirdtest()[pri:0, instance:TestngPack.ParallelExecution@273305]" name="thirdtest" duration-ms="0" started-at="2018-08-28T22:58:58Z" finished-at="2018-08-28T22:58:58Z">
+        <test-method status="PASS" signature="thirdtest()[pri:0, instance:TestngPack.ParallelExecution@273305]" name="thirdtest" duration-ms="0" started-at="2018-09-13T21:52:28Z" finished-at="2018-09-13T21:52:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- thirdtest -->
-        <test-method status="PASS" signature="secondtest()[pri:0, instance:TestngPack.ParallelExecution@273305]" name="secondtest" duration-ms="0" started-at="2018-08-28T22:58:58Z" finished-at="2018-08-28T22:58:58Z">
+        <test-method status="PASS" signature="secondtest()[pri:0, instance:TestngPack.ParallelExecution@273305]" name="secondtest" duration-ms="0" started-at="2018-09-13T21:52:28Z" finished-at="2018-09-13T21:52:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondtest -->

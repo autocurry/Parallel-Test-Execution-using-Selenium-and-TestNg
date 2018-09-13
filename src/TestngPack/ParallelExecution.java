@@ -14,9 +14,7 @@ import org.testng.annotations.AfterTest;
 public class ParallelExecution {
 	
 		   
-	   //testing jenkins trigger
-	//testing the github connection testings
-	//addded another line to check git for testing again
+	   //testing the build status label
 	   @Test
 	   public void firstest() {
 	      System.out.println("Inside firsttest()");
